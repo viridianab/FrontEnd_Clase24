@@ -1,0 +1,23 @@
+$blanco: #fff;
+$negro: #000;
+$oscuro: #222222;
+$naranja: #F0A83E;
+$cafe: #3C2313;
+$gris: #8A8787;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Roboto", Arial, sans-serif, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: $oscuro;
+    background-color: $blanco;
+}
